@@ -12,8 +12,8 @@ CLIENT_ID = config.CLIENT_ID
 CLIENT_SECRET = config.CLIENT_SECRET
 PASSWORD = config.PASSWORD
 USERNAME = config.USERNAME
-target_sub = 'bjj'
-target_word = '!bjjfighterbot'
+target_sub = 'iamjacksheart'
+target_word = '!bjjfighter'
 
 # reddit api login
 reddit = praw.Reddit(client_id=CLIENT_ID,
