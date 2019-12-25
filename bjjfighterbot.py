@@ -12,7 +12,7 @@ CLIENT_ID = config.CLIENT_ID
 CLIENT_SECRET = config.CLIENT_SECRET
 PASSWORD = config.PASSWORD
 USERNAME = config.USERNAME
-target_sub = 'all'
+target_sub = 'bjj'
 target_word = '!bjjfighterbot'
 
 # reddit api login
