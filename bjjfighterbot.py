@@ -12,7 +12,7 @@ reddit_username = os.environ['reddit_username']
 reddit_password = os.environ['reddit_password']
 client_id = os.environ['client_id']
 client_secret = os.environ['client_secret']
-target_sub = 'bjj'
+target_sub = 'bjj+iamjacksheart'
 target_word = '!bjjfighterbot'
 
 # reddit api login
