@@ -1,8 +1,8 @@
 # BJJFightersBot
 # coding: utf-8
 
+import os
 import praw
-import config
 import csv
 import time
 import requests
