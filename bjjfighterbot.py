@@ -7,19 +7,19 @@ import csv
 import time
 import requests
 
-# declare config variables
-CLIENT_ID = config.CLIENT_ID
-CLIENT_SECRET = config.CLIENT_SECRET
-PASSWORD = config.PASSWORD
-USERNAME = config.USERNAME
+# Retrieve heroku env variables
+reddit_username = os.environ['reddit_username']
+reddit_password = os.environ['reddit_password']
+client_id = os.environ['client_id']
+client_secret = os.environ['client_secret']
 target_sub = 'bjj'
 target_word = '!bjjfighterbot'
 
 # reddit api login
-reddit = praw.Reddit(client_id=CLIENT_ID,
-                     client_secret=CLIENT_SECRET,
-                     password=PASSWORD,
-                     username=USERNAME,
+reddit = praw.Reddit(client_id=client_id,
+                     client_secret=client_secret,
+                     password=reddit_password,
+                     username=reddit_username,
                      user_agent=f'{target_word}bot by (/u/iamjacksheart)')
 print('Logged in')
 
